@@ -1,8 +1,11 @@
 {
   "name": "pdf-to-json",
   "version": "1.0.0",
-  "description": "Simple module to extract a JSON representation of the text in a PDF",
+  "description": "This is an approach to extract a JSON representation of the text in a PDF",
   "main": "dist/index.js",
+  "bin": {
+    "pdf-to-json": "dist/index.js"
+  },
   "scripts": {
     "build": "tsc",
     "start": "ts-node src/index.ts",
